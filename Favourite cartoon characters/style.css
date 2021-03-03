@@ -1,0 +1,30 @@
+body{
+    text-align:center;
+}
+
+#cartoon{
+    height:100%;
+    width:100%;
+    text-align:center;
+    background-image: linear-gradient(lightblue, blue);
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+    }
+
+#p1{
+    font-family: cursive;
+}
+
+img{
+    transition: transform .2s;
+    border:10px solid #AAAAAA
+}
+
+img:hover{
+    transform: scale(0.9);
+}
